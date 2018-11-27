@@ -9,7 +9,6 @@ body{
 
 .menu{
 
-	
 	margin-left:14%;
 	margin-top:2%;
 	font-size:20px;
@@ -32,22 +31,21 @@ body{
 	border: solid 2px transparent;
 }
 
-.menu ul li a{
-		
+.menu ul li a{	
 	color:#fff;
 	text-decoration:none;
 }
 
 .menu ul li:hover{
-	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-moz-box-shadow:0 3px 10px 0 #CCC;  /* Efeito de sombra ao passar o mouse */
 	-webkit-box-shadow:0 5px 10px 0 #ccc; 
-	text-shadow:0px 0px 5px #fff;
+	text-shadow:0px 0px 5px #fff; /* sombra do texto */
 	border:solid 2px #fff;
-	background-color:transparent;
+	background-color:transparent; 
 	cursor: pointer;
 }
 
-@media (max-width:520px){
+@media (max-width:520px){ /* Ao chegar nesse tamanho o menu se alinha um a baixo do outro */
 	.menu ul{
 		display:block;
 	}
@@ -55,14 +53,15 @@ body{
 
 
 /* ------------------- menu -------------------- */
-.cabecalho{
 
-	justify-content:center;
+.cabecalho{
+	justify-content:center; 
 	margin-top:9%;
 	color:white;
 	font-size:45px;
 	display:flex;
 }
+
 
 #Magic1 img{
 	
@@ -77,13 +76,14 @@ body{
 	margin-right:2%;
 	font-size:22px;
 	margin-top:14%;
-	justify-content:flex-end;
+	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
 	color:white;
 	flex-wrap:wrap;
 	
 }
 
 #Magic1 p{
+	
 	text-align:justify;
 	
 }
@@ -101,7 +101,7 @@ body{
 	margin-right:2%;
 	font-size:22px;
 	margin-top:14%;
-	justify-content:flex-end;
+	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
 	color:white;
 	flex-wrap:wrap;
 	
@@ -110,5 +110,41 @@ body{
 #Magic2 p{
 	
 	text-align:justify;
+	
+}
+
+#Magic3 img{
+	
+	float:left;
+    margin-top:-100px;
+	width:400px;
+	height:400px;
+}
+
+#Magic3{
+	margin-left:2%;
+	margin-right:2%;
+	font-size:22px;
+	margin-top:14%;
+	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
+	color:white;
+	flex-wrap:wrap;
+	
+}
+
+#Magic3 p{
+	margin-top:300x;
+	text-align:justify;
+	
+}
+
+#Magic4{
+	margin-left:2%;
+	margin-right:2%;
+	font-size:22px;
+	margin-top:12%;
+	justify-content: center; /* alinha o conteudo ao meio do container */
+	color:white;
+	flex-wrap:wrap;
 	
 }
