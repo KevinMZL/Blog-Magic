@@ -1,150 +1,248 @@
 *{
-	margin:0;
-	padding:0;
+margin:0;
+padding:0;
+text-align: justify;
 }
 
 body{
-	background-color:black;
+background-color:black;
 }
 
 .menu{
 
-	margin-left:14%;
-	margin-top:2%;
-	font-size:20px;
-	width:70%;
-	border:solid 1px #fff;
+margin-left:14%;
+margin-top:2%;
+font-size:20px;
+width:70%;
+border:solid 1px #fff;
 }
 
 
 .menu ul{
-	border:solid 1px #fff;
-	display:flex;
-	list-style:none;
-	text-align:center;
+border:solid 1px #fff;
+display:flex;
+list-style:none;
+text-align:center;
 }
 
 .menu ul li{
-	padding:16px;
-	flex-grow:1;
-	transition: background-color .2s linear;
-	border: solid 2px transparent;
+text-align:center;
+padding:16px;
+flex-grow:1;
+transition: background-color .2s linear;
+border: solid 2px transparent;
 }
 
 .menu ul li a{	
-	color:#fff;
-	text-decoration:none;
+
+color:#fff;
+text-decoration:none;
 }
 
 .menu ul li:hover{
-	-moz-box-shadow:0 3px 10px 0 #CCC;  /* Efeito de sombra ao passar o mouse */
-	-webkit-box-shadow:0 5px 10px 0 #ccc; 
-	text-shadow:0px 0px 5px #fff; /* sombra do texto */
-	border:solid 2px #fff;
-	background-color:transparent; 
-	cursor: pointer;
+-moz-box-shadow:0 3px 10px 0 #CCC;  /* Efeito de sombra ao passar o mouse */
+-webkit-box-shadow:0 5px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; /* sombra do texto */
+border:solid 2px #fff;
+background-color:transparent; 
+cursor: pointer;
 }
 
 @media (max-width:520px){ /* Ao chegar nesse tamanho o menu se alinha um a baixo do outro */
-	.menu ul{
-		display:block;
-	}
+.menu ul{
+display:block;
+}
 }
 
 
 /* ------------------- menu -------------------- */
 
+
 .cabecalho{
-	justify-content:center; 
-	margin-top:9%;
-	color:white;
-	font-size:45px;
-	display:flex;
+padding-bottom:25px;
+justify-content:center;
+margin-top:12%;
+color:white;
+font-size:45px;
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
 }
-
-
 #Magic1 img{
-	
-	float:left;
-    margin-top:-100px;
-	width:400px;
-	height:400px;
+
+float:left;
+margin-top:-100px;
+width:400px;
+height:400px;
 }
 
 #Magic1{
-	margin-left:2%;
-	margin-right:2%;
-	font-size:22px;
-	margin-top:14%;
-	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
-	color:white;
-	flex-wrap:wrap;
-	
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:14%;
+justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
+color:white;
+flex-wrap:wrap;	/* Permite a quebra de linha quando a resolução ficar menor */
+
 }
 
 #Magic1 p{
-	
-	text-align:justify;
-	
+
+text-align:justify;
+
 }
 
 #Magic2 img{
-	
-	float:right;
-    margin-top:-100px;
-	width:400px;
-	height:400px;
+
+float:right;
+margin-top:-100px;
+width:400px;
+height:400px;
 }
 
 #Magic2{
-	margin-left:2%;
-	margin-right:2%;
-	font-size:22px;
-	margin-top:14%;
-	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
-	color:white;
-	flex-wrap:wrap;
-	
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:14%;
+justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+
 }
 
 #Magic2 p{
-	
-	text-align:justify;
-	
+
+text-align:justify;
+
 }
 
 #Magic3 img{
-	
-	float:left;
-    margin-top:-100px;
-	width:400px;
-	height:400px;
+
+float:left;
+margin-top:-100px;
+width:400px;
+height:400px;
 }
 
 #Magic3{
-	margin-left:2%;
-	margin-right:2%;
-	font-size:22px;
-	margin-top:14%;
-	justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
-	color:white;
-	flex-wrap:wrap;
-	
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:14%;
+justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+
 }
 
 #Magic3 p{
-	margin-top:300x;
-	text-align:justify;
-	
+margin-top:300x;
+text-align:justify;
+
 }
 
 #Magic4{
-	margin-left:2%;
-	margin-right:2%;
-	font-size:22px;
-	margin-top:12%;
-	justify-content: center; /* alinha o conteudo ao meio do container */
-	color:white;
-	flex-wrap:wrap;
-	
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:12%;
+justify-content: center; /* alinha o conteudo ao meio do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+
+}
+#Magic5{
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+justify-content:center;
+}
+
+#Magic5 img{
+width:400px;
+height:400px;
+
+}
+
+#Magic6{
+padding-bottom:20px;
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:6%;
+justify-content: center; /* alinha o conteudo ao meio do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+}
+
+#Magic7{
+padding-bottom:20px;
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:1%;
+justify-content: center; /* alinha o conteudo ao meio do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+}
+
+
+#Magic8{
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+justify-content:center;
+}
+
+#Magic8 img{
+width:400px;
+height:400px;
+}
+
+#Magic9{
+margin-left:2%;
+margin-right:2%;
+font-size:22px;
+margin-top:10%;
+justify-content:flex-end; /* alinha o conteudo sempre ao final do container */
+color:white;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+padding-bottom:50px;
+}
+
+#Magic10{
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+flex-flow:row wrap; /* Coloca o conteúdo em linha e permite a quebra de linha */
+}
+
+#Magic10 img{
+margin-left:30px;
+width:400px;
+height:400px;
+}
+
+#Magic11{
+
+margin-top:6%;
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+flex-flow:row wrap; /* Coloca o conteúdo em linha e permite a quebra de linha */
+}
+
+#Magic11 img{
+margin-top:5%;
+margin-left:30px;
+width:400px;
+height:400px;
+}	
+
+
+footer{
+margin-top:5%;
+height:35px;
+justify-content:center;
+display:flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+border:2px solid white;
+}
+
+footer h2{
+margin-top:5px;
+flex-wrap:wrap; /* Permite a quebra de linha quando a resolução ficar menor */
+text-align:center;
+color:white;
 }
